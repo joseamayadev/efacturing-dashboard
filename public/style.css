@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* Configuracion de las variables */
+
+:root {
+    --bgColor: #fff;
+    --mainFont: Poppins;
+    --fontSize: 35px;
+    --fontSizeSubtitulo: 25px;
+    --ligth: 300;
+    --mainColor: #006E72;
+    --textColorSecondary: #4D4D4D;
+}
+
+body {
+    font-family: var(--mainFont);
+    background-color: var(--bgColor);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    width: 400px;
+    font-size: var(--fontSize);
+    text-align: center;
+    color: var(--mainColor);
+}
+
+p.subtitle {
+    margin-top: 25px;
+    width: 400px;
+    font-size: var(--fontSizeSubtitulo);
+    text-align: center;
+    font-weight: var(--ligth);
+    color: var(--textColorSecondary);
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 20px;
+    font-family: var(--mainFont);
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .6s;
+}
+
+button:hover {
+    transform: scale(1.02);
+    transition: .6s;
+}
+
+button.main {
+    border: none;
+    background-color: var(--mainColor);
+    color: #fff;
+}
+
+button.secondary {
+    border-radius: 20px;
+    border: 2px solid var(--mainColor);
+    color: var(--mainColor);
+    background-color: transparent;
+}
+
+.idiomas {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button.language {
+    width: 60px;
+    height: 30px;
+    background-color: var(--mainColor);
+    color: var(--bgColor);
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.enlacesIdiomas a {
+    background: white;
+    color: var(--textColorSecondary);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    padding: 4px 10px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+.enlacesIdiomas {
+    visibility: hidden;
+    opacity: 0;
+    transform: scale(1) translateY(-10px);
+}
+
+.idiomas:hover .enlacesIdiomas {
+    visibility: visible;
+    opacity: 1;
+    transition: .4s;
+    transform: scale(1) translateY(0px);
+}
+
+
+/* Animacion de loading */
+
+.contenedorAnimation {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--mainColor);
+    animation: transicion .3s linear;
+    transform: translateX(120vw);
+    z-index: 2;
+}
+
+@keyframes transicion {
+    0% {
+        transform: translateX(-120vw);
+        width: 100%;
+        height: 100%;
+    }
+    100% {
+        transform: translateX(120vw);
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+}

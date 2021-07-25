@@ -1,0 +1,60 @@
+{
+    "es": {
+        "language": "es",
+        "title": "SISTEMA DE FACTURACIÓN ELECTRÓNICA",
+        "subtitle": "Sistema de facturación electrónica compatible con Sage Accounting.",
+        "priceBtn": "Ingresar",
+        "contactBtn": "Cotizar",
+        "url": "dashboard",
+        "dashboard": {
+            "title": "Resumen",
+            "subtitle": "Por favor completar las siguientes tareas para evitar errores con el sistema",
+            "activities": {
+                "downloadGateway": "Descargar integrador",
+                "uploadKey": "Configurar clave de cifrado"
+            },
+            "headTransactions": {
+                "client": "Cliente",
+                "product": "Producto",
+                "description": "Descripción",
+                "qty": "Cantidad",
+                "cost": "Costo/Hora",
+                "total": "Total"
+            }
+
+        }
+
+    },
+    "en": {
+        "language": "en",
+        "lang": {
+            "url": "/en"
+        },
+        "title": "ELECTRONIC INVOICING SYSTEM",
+        "subtitle": "Electronic invoicing system compatible with Sage Accounting.",
+        "priceBtn": "Enter",
+        "contactBtn": "Contact",
+        "url": "en/dashboard"
+
+    },
+
+    "br": {
+        "language": "br",
+        "lang": {
+            "url": "/br"
+        },
+        "title": "SISTEMA DE FATURAÇÃO ELETRÔNICA",
+        "subtitle": "Sistema de faturação eletrônica compatível com a Sage Accounting.",
+        "priceBtn": "Entrar",
+        "contactBtn": "Contate",
+        "url": "/br/dashboard",
+        "dashboard": {
+            "title": "Resumen",
+            "subtitle": "Favor completar as seguintes tarefas para evitar erros no sistema",
+            "activities": {
+                "downloadGateway": "Integrador de download",
+                "uploadKey": "Definir chave de criptografia"
+            }
+        }
+    }
+}

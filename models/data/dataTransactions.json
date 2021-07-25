@@ -1,0 +1,64 @@
+{
+    "data": "facturas",
+    "transactions": [{
+            "cliente": "Cool Enterprise",
+            "producto": "SEO Optimization",
+            "description": "Optimización de URL para seo friendly",
+            "cantidad": "16 hrs",
+            "cost": "60.00",
+            "total": "960.00"
+        },
+        {
+            "cliente": "Best Enterprise",
+            "producto": "Hardening de Servidores",
+            "description": "Servicio de hardening de servidores",
+            "qty": "20 hrs",
+            "cost": "35.00",
+            "total": "700.00"
+        },
+        {
+            "cliente": "Super Comp",
+            "producto": "Mantenimiento de Wordpress",
+            "description": "Mantenimiento de las versiones de SQL, PHP",
+            "qty": "8 horas",
+            "cost": "25.00",
+            "total": "200.00"
+        },
+
+        {
+            "cliente": "Genius Inc",
+            "producto": "Creación de página promocional",
+            "description": "Creación de página responsiva para promocion",
+            "qty": "1",
+            "cost": "250.00",
+            "total": "250.00"
+        },
+        {
+            "cliente": "Is for You",
+            "producto": "Chatbox",
+            "description": "Implementación de chatbox para contacto con el cliente",
+            "qty": "1",
+            "cost": "250.00",
+            "total": "350.00"
+        },
+        {
+            "cliente": "Future Mall",
+            "producto": "Sistema de reservas",
+            "description": "Implementación de sistema de reservas",
+            "qty": "7",
+            "cost": "60.00",
+            "total": "780.00"
+        },
+        {
+            "cliente": "Marvel Tech",
+            "producto": "Sistema de pedidos",
+            "description": "Implementeación oinline",
+            "qty": "9",
+            "cost": "40.00",
+            "total": "80.00"
+        }
+
+
+    ]
+
+}

@@ -1,0 +1,13 @@
+html(lang="es")
+    head
+        title Pagina de inicio 
+        link(rel="stylesheet", href="/public/style.css")
+        link(rel="stylesheet", href="/public/dashboard.css")
+    body
+    //nclude templates-parts/animation.pug 
+    main.root
+        include templates/sidebar.pug
+        include templates/dashboard.pug
+    script(type="module", src="/public/app/app.js")
+
+

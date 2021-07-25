@@ -1,0 +1,16 @@
+.dashboard
+    .separador
+    p.titleDashboard= datos.title
+    p.subtitleDashboard= datos.subtitle
+    .contenedorPending 
+        .activity
+            span.iconStatus
+            p.activityText= datos.activities.downloadGateway
+            figure 
+                img.imgActivitie(src="/public/images/download-icon.svg", alt="", srcset="")
+        .activity
+            span.iconStatus
+            p.activityText= datos.activities.uploadKey
+            figure
+                img.imgActivitie(src="/public/images/upload-icon.svg", alt="", srcset="")
+    include ../templates-parts/content.pug

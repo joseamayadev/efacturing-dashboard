@@ -1,0 +1,13 @@
+html(lang= language)
+    head
+        title Pagina de inicio 
+        link(rel="stylesheet", href="/public/style.css")
+    body
+        include templates-parts/animation.pug 
+        h1= datos.title
+        p.subtitle= datos.subtitle
+        include ./templates-parts/idioms.pug
+        .contenedorBtn
+            a(href=datos.url) 
+                button.main= datos.priceBtn 
+            button.secondary= datos.contactBtn
